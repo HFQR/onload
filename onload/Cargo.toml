@@ -1,0 +1,19 @@
+[package]
+name = "onload"
+version = "0.1.0"
+edition = "2021"
+authors = ["somewheve <somewheve@gmail.com>"]
+repository = "https://github.com/HFQR/onload"
+keywords = ["solarflare", "ffi", "bindings" ]
+description = "binding to solarflare onload libarary."
+license = "MIT"
+
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.60"
+
+[features]
+default = ["release"]
+debug = []
+release = []
