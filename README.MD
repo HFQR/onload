@@ -1,7 +1,5 @@
 ## onload rust bindings
 
-feature: release(default), provide a generated examples, exposed by mod `binding`
+provide bingding functions 
 
-feature: debug, it will generate the bindings, exposed by mod `ge`
-
-alse, you can control the `wrapper.h` to generate `API`
+binding versions => 7.1.2.141
