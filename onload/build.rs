@@ -18,5 +18,7 @@ fn generate_binding() {
 
 fn main() {
     #[cfg(feature = "debug")]
-    generate_binding()
+    generate_binding();
+    println!("cargo:rustc-link-lib=onload_zf");
+    println!("cargo:rustc-link-lib=ciul1");
 }
