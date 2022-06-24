@@ -14,6 +14,6 @@ build = "build.rs"
 bindgen = {version="0.60", optional= true}
 
 [features]
-default = ["debug"]
+default = ["release"]
 debug = ["bindgen"]
 release = []
