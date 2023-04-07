@@ -1,5 +1,5 @@
 ## onload rust bindings
 
-provide bingding functions 
+provide bingding functions
 
-binding versions => 7.1.2.141
+binding versions => 8.0.2.51
