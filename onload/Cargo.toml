@@ -11,7 +11,7 @@ license = "MIT"
 build = "build.rs"
 
 [build-dependencies]
-bindgen = { version = "*", optional = true}
+bindgen = { version = "*", optional = true }
 
 [features]
 default = ["9"]
