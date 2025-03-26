@@ -1,6 +1,6 @@
-## onload rust bindings
+## Onload rust bindings
 
-provide tcp_direct bindings functions
+provide solarflare tcp_direct bindings functions
 
 ### install
 
